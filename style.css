@@ -1,0 +1,49 @@
+body{
+	transition: background-color 0.5s;
+}
+
+.sidemenu{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(#f45925, #a68a43);
+	margin-left: -250px;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.sidemenu ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+.sidemenu a{
+	text-decoration: none;
+	margin-bottom: 30px;
+	font-size: 1.8rem;
+	color: white;
+	display: block;
+	transition:  0.1s;
+}
+
+.sidemenu a.active{
+	color: green;
+}
+
+.sidemenu a:hover{
+	color: green;
+}
+
+.main{
+transition: 0.5s;
+}
+
+.expand-arrow{
+	transition: 0.5s;
+	position: fixed;
+	bottom: 50%;
+}
